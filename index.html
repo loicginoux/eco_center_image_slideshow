@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>image slideshow plugin</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		
+			
+		<script src="vendor/jquery.js"></script>
+		<script src="js/event_slideshow.js"></script>
+
+		<link  href="css/main.css" rel="stylesheet"/>
+	</head>
+<body>
+	<!-- three.js container -->
+    	<div id="container"></div>
+	<!-- info on screen display -->
+	<div id="info">
+		<div class="top">
+			Image slideshow made for <a href="http://www.tarifaecocenter.com" target="_blank">Eco Center Tarifa</a>
+		</div>
+	</div> 
+
+	<div id="imagesContainer">
+		<!-- <div id="lgx_slideshow">
+					<div class="images">
+						<img src="images/breakfast.jpg" alt="photo1" />
+						<img src="images/breakfast2.jpg" alt="breakfast2" />
+						<img src="images/dinner.jpg" alt="photo1" />
+						<img src="images/dinner2.jpg" alt="photo1" />
+					</div>
+					<a class="slideshow-control prev" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="slideshow-control next" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					<div class="infoDisplay">
+						<p class="title">image 1</p>
+						<p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in th</p>
+					</div>
+				</div> -->
+	</div>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$("#imagesContainer").event_slideshow()
+			
+		});
+	</script>
+</body>
+</html>
